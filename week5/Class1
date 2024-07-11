@@ -1,7 +1,8 @@
+//write a program to print natural number
 package Recursion;
 
 public class Ex1 {
-//wap to print natural number
+
     void Natural(int x){
     if (x==101)
     return;
@@ -18,3 +19,47 @@ public class Ex1 {
 
 }
 
+// write a progran to print fibonacci series
+
+public class Fibo {
+    public static int fibRecursion(int count) {
+        if (count == 0) {
+            return 0;
+        } // Oth fibonacci is 0
+
+        if (count == 1 || count == 2) {
+            return 1;
+        } // 1st and 2nd Fibonacci are 1 and 1 only
+
+        // calling function recursively for nth Fibonacci
+        return fibRecursion(count - 1) + fibRecursion(count - 2);
+    }
+
+    public static void main(String args[]) {
+        int fib_len = 10;
+
+        System.out.print("Fibonacci Series of " + fib_len + " numbers is: \n");
+
+        for (int i = 0; i < fib_len; i++) {
+            System.out.print(fibRecursion(i) + " ");
+        }
+    }
+}
+
+
+// write a program to print factorial 
+
+public class Ex2 {
+
+    //wap to find factorial
+   static int Fact(int x){
+    if(x==1)
+        return 1;
+    return x*Fact( x-1 );
+
+    }
+    public static void main(String[] args){
+    int num= Fact(5);
+        System.out.println(num);
+    }
+}
