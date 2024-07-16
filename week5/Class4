@@ -51,7 +51,7 @@ public class LinkedList {
 
 
 
-// program
+// program to insert delet find length
 
 class Node1{
     int data;
@@ -67,13 +67,11 @@ public class FrontNode {
     FrontNode(){
         head=null;
     }
-
     void insertAtBeg(int data){
         Node1 newNode = new Node1(data);
         newNode.next=head;
         head=newNode;
     }
-
     void insertAtEnd(int data){
         Node1 newNode=new Node1(data);
         if(head==null){
@@ -86,7 +84,6 @@ public class FrontNode {
         }
         last.next=newNode;
     }
-
     void insAtAnyPoint(Node1 pre, int data){
         if(pre.next==null){
             return;
@@ -96,7 +93,15 @@ public class FrontNode {
         pre.next=newNode;
     }
 
-
+    int Len(){
+        Node1 last=head;
+        int count=0;
+        while(last!=null){
+            count++;
+            last=last.next;
+        }
+            return count;
+    }
     void printData(){
         Node1 last=head;
         while(last!=null){
@@ -104,9 +109,6 @@ public class FrontNode {
             last=last.next;
         }
     }
-
-
-
     public static void main(String[] args) {
         FrontNode lj = new FrontNode();
         lj.insertAtEnd(45);
@@ -115,6 +117,8 @@ public class FrontNode {
         lj.insertAtBeg(2);
         Node1 nodeCenter=lj.head.next.next;
         lj.insAtAnyPoint(nodeCenter, 90);
+        int length=lj.Len();
+        System.out.println("length of linked list"+length);
         lj.printData();
     }
 }
