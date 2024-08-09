@@ -1,5 +1,3 @@
-
-
 //write a program to print natural number
 
 package Recursion;
@@ -28,6 +26,9 @@ public class Ex1 {
 
 
 // write a progran to print fibonacci series
+
+
+
 
 public class Fibo {
     public static int fibRecursion(int count) {
@@ -59,9 +60,6 @@ public class Fibo {
 
 
 // write a program to print factorial 
-
-
-
 
 public class Ex2 {
 
