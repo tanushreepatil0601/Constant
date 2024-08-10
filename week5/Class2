@@ -22,6 +22,7 @@ public class MultiDimensionalArray {
 
 // write a program to print rows and columns
 
+
 import java.util.Scanner;
 
 public class MultiDimensionalArray {
