@@ -70,8 +70,10 @@ public class LoopInList {
 
 
 
-// deleting element
 
+
+
+// deleting element
 
 class Node2{
     int data;
