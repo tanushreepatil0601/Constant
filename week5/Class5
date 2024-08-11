@@ -68,11 +68,6 @@ public class LoopInList {
 
 
 
-
-
-
-
-
 // deleting element
 
 class Node2{
