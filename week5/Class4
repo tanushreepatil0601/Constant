@@ -1,5 +1,6 @@
 // write a program to create linked list 
 
+
 package DSA;
 
 class Node{
