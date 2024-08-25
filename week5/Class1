@@ -47,7 +47,6 @@ public class Fibo {
     }
 }
 
-
 // write a program to print factorial 
 
 public class Ex2 {
