@@ -1,5 +1,6 @@
 //write a program to print natural number
 
+
 package Recursion;
 
 public class Ex1 {
