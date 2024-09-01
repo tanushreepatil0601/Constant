@@ -1,4 +1,4 @@
-  //multidimensional array snake pattern
+ //multidimensional array snake pattern
 
 import java.util.Scanner;
 public class MultiDimensionalArray {
