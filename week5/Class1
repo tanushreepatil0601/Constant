@@ -19,7 +19,7 @@ public class Ex1 {
     }
 
 }
-
+ 
 // write a progran to print fibonacci series
 
 public class Fibo {
