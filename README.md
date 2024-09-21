@@ -1,1 +1,1 @@
-# Constant
+# JAVA 2.0
